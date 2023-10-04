@@ -1,11 +1,5 @@
 # Monitoring Solution for Azure VNet Utilization
 ![Diagram Name](./path/to/diagram.png)
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
 
 ## Overview
 
