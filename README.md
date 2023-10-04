@@ -1,5 +1,5 @@
 # Monitoring Solution for Azure VNet Utilization
-![Diagram Name](./path/to/diagram.png)
+![Diagram Name](./VnetMonitoring.png)
 
 ## Overview
 
