@@ -44,11 +44,9 @@ This solution is implemented using an Azure Function written in PowerShell. Here
 
 6. Azure Alert continuously monitors the condition values. If it detects a condition value of 1, indicating high subnet utilization, it triggers an alert for immediate notification.
 
-### Data Collection Rules (DCR) and Data Collection Endpoint (DCE)
+7. Data Collection Rules (DCR) define the data collection schema and configuration for Log Analytics. It specifies which data to collect, how to process it, and where to store it.
 
-The Data Collection Rules (DCR) define the data collection schema and configuration for Log Analytics. It specifies which data to collect, how to process it, and where to store it.
-
-The Data Collection Endpoint (DCE) is the destination where the collected data is sent. In this solution, the DCE is set to "https://vnet-data-svv3.westeurope-1.ingest.monitor.azure.com," which is the Log Analytics workspace endpoint.
+8. The Data Collection Endpoint (DCE) is the destination where the collected data is sent. In this solution, the DCE is set to "https://vnet-data-svv3.westeurope-1.ingest.monitor.azure.com," which is the Log Analytics workspace endpoint.
 
 Together, the DCR and DCE enable the seamless flow of data from the Azure Function to the Log Analytics Custom Table, allowing you to monitor your VNets effectively.
 
